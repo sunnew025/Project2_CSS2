@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<!-- Preloader Start -->
+  <div id="preloader">
+  <div class="loader"></div>
+  </div>
+  <!-- Preloader End -->
+
+
+  <!-- Home & Menu Section Start -->
+  <header id="home" class="home-section">
+
+      <div class="header-top-area">
+          <div class="container">
+              <div class="row">
+
+                  <div class="col-sm-3">
+                      <div class="logo">
+
+                      </div>
+                  </div>
+
+                  <div class="col-sm-9">
+                      <div class="navigation-menu">
+                          <div class="navbar">
+                              <div class="navbar-header">
+                                  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                                      <span class="sr-only">Toggle navigation</span>
+                                      <span class="icon-bar"></span>
+                                      <span class="icon-bar"></span>
+                                      <span class="icon-bar"></span>
+                                  </button>
+                              </div>
+                              <div class="navbar-collapse collapse">
+                                  <ul class="nav navbar-nav navbar-right">
+                                      <li class="active"><a class="smoth-scroll" href="index.html">Home <div class="ripple-wrapper"></div></a>
+                                      </li>
+                                      <li><a class="smoth-scroll" href="Login1.html">Login</a>
+                                      </li>
+                                      <li><a class="smoth-scroll" href="Registration1.html">Register</a>
+                                      </li>
+
+
+
+                                  </ul>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+
+      <div class="home-section-background" data-stellar-background-ratio="0.6">
+          <div class="display-table">
+              <div class="display-table-cell">
+                  <div class="container">
+                      <div class="row">
+                          <div class="col-md-12 text-center">
+                              <div class="header-text">
+
+                                  <h2><span class="typing"></span></h2>
+
+
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+
+  </header>
+  <!-- Home & Menu Section End-->
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  </head>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  </head>
+
+
+  <body>
+<link rel="stylesheet"  href="css/style4.css" />
+     <div class="container">
+       <div class = "eiei">
+      <center><h1>New Member Registration</h1></center></div>
+        <div class="panel panel-default">
+
+      <div class="panel-heading">
+        <h3 class="panel-title">New Member Registration</h3>
+      </div>
+        <div class="panel-body">
+      <form class="" action="#" method="post">
+        <div class="form-group">
+          <label for="username">Username</label>
+          <input type="text" class="form-control" id="username" placeholder="">
+          <p class="help-block">
+Please Put your Username </p>
+        </div>
+        <div class="form-group">
+          <label for="password">Password</label>
+          <input type="password" class="form-control" id="password" placeholder="">
+          <p class="help-block">Please Put your Password</p>
+        </div>
+        <div class="form-group">
+          <label for="fname">First name</label>
+          <input type="text" class="form-control" id="fname" placeholder="">
+          <p class="help-block">Please Put your FirstName</p>
+        </div>
+        <div class="form-group">
+          <label for="lname">Last name</label>
+          <input type="text" class="form-control" id="lname" placeholder="">
+          <p class="help-block">Please Put your Lastname</p>
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="text" class="form-control" id="email" placeholder="">
+          <p class="help-block">Please Put your Email</p>
+        </div>
+        <div class="form-group">
+          <label for="tel">Telephone</label>
+          <input type="text" class="form-control" id="tel" placeholder="">
+          <p class="help-block">Please Put your Telephone</p>
+        </div>
+        <button type="button" id="save" name="button" class="btn btn-primary">Update</button>
+        <button type="button" id="cancel" name="button" class="btn btn-default" >Cancel</button>
+
+      </form>
+
+
+
+                         <div id="sav" style="display:none" class="alert alert-success alert-dismissable fade in">
+                         							<a href="#" class="close" data-dismiss="alert" aria-label="close">x</a>
+                         							<strong>Update Successful !!</strong>
+
+                           </div>
+</div>
+</div>
+     </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+        //Function for extract parameters from querystring
+        $.urlParam = function(name){
+            var results = new RegExp('[\?&]' + name + '=([^&#]*)').exec(window.location.href);
+            return results[1] || 0;
+        }
+
+        $(function(){
+            //Get user Id from querystring parameters
+            var id = $.urlParam('id');
+            //Create a Web Api url for getting a member info
+            var url = "http://membershipwebapi977290.azurewebsites.net/api/Members/" + id;
+            console.log(url);
+            $.get(url, function(data, status) {
+                console.log(data);
+                //Set data to form elements
+                $('#username').val(data.UserName);
+                $('#password').val(data.Password);
+                $('#fname').val(data.FirstName);
+                $('#lname').val(data.LastName);
+                $('#email').val(data.Email);
+                $('#tel').val(data.Tel);
+
+                //If user click cancel, go to userinfo page
+                $("#cancel").click(function () {
+                    window.location.href = "userinfo.html?id=" + data.Id;
+                });
+
+                //Save updated data
+                $("#save").click(function () {
+                    //Set update data to newuser object
+                    var newuser = { };
+                    newuser.Id = data.Id;
+                    newuser.username = $("#username").val();
+                    newuser.password = $("#password").val();
+                    newuser.firstname = $("#fname").val();
+                    newuser.lastname = $("#lname").val();
+                    newuser.email = $("#email").val();
+                    newuser.tel = $("#tel").val();
+                    console.log(JSON.stringify(newuser));
+
+                    //Creat a url for update member data
+                    var updateUrl = "http://membershipwebapi977290.azurewebsites.net/api/Members/" + data.Id;
+                    //Call Web Api with method PUT for updating
+                    $.ajax({
+                        url: updateUrl,
+                        type: 'PUT',
+                        data: newuser,
+                        success: function(result) {
+                            console.log('Updated!');
+                            $("#sav").show();
+                        }
+                    });
+                });
+                });
+            });
+    </script>
+  </body>
+</html>
